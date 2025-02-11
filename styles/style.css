@@ -1,1 +1,77 @@
+#content-wrap {
+  padding-bottom: 4.5rem; /* Footer height */
+}
 
+.bg-info {
+  background-color: #44633f !important;
+}
+
+.navbar-brand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #2de1fc;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  filter: drop-shadow(4px 2px 1px #3f4b3b);
+}
+
+.navbar-toggler:hover {
+  background-color: #3f4b3b;
+}
+
+.nav-link {
+  color: #1fa7bc;
+}
+
+.btn-primary {
+  color: #5cab7d;
+  background-color: #3f4b3b;
+  border-color: #5cab7d;
+}
+
+.btn-primary:hover {
+  color: #6ac690;
+  background-color: #242b22;
+  border-color: #6ac690;
+  filter: drop-shadow(4px 2px 1px #3f4b3b);
+}
+
+.btn-outline-success {
+  color: #5cab7d;
+  background-color: #3f4b3b;
+  border-color: #5cab7d;
+}
+
+.btn-outline-success:hover {
+  font-weight: bolder;
+}
+
+.btn {
+  color: #5cab7d;
+  background-color: #3f4b3b;
+}
+
+.btn-outline-primary {
+  background-color: #3f4b3b;
+  border-color: #5cab7d;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  color: #005a00 !important;
+  background-color: #34be06 !important;
+  border-color: #005a00 !important;
+  filter: drop-shadow(4px 2px 1px #3f4b3b);
+  border-radius: 100%;
+}
+
+.btn-check:checked + .btn-outline-primary,
+.btn-check:active + .btn-outline-primary {
+  color: #f2fbf2; /* Lightest color for text */
+  background-color: #50a237;
+  border-color: #375745;
+}
